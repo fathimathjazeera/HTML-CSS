@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      body {
+        padding-left: 80px;
+      }
+      .sidebar1 {
+        background-color: rgb(21, 21, 21);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 72px;
+      }
+      .profile-picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+      }
+      .first-div,
+      .second-div,
+      .third-div {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+      .sidebar2 {
+        background-color: rgb(35, 34, 34);
+        color: white;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 72px;
+        width: 220px;
+      }
+      .nested-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+      .info {
+        margin-left: 20px;
+      }
+      .plus-icon {
+        margin-right: 15px;
+        font-size: 25px;
+        color: gray;
+      }
+      .nested-flex2 {
+        display: flex;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+      }
+      .hash-icon {
+        margin-right: 10px;
+        color: gray;
+      }
+      .title {
+        color: gray;
+        font-size: 18px;
+      } 
+    </style>
+  </head>
+  <body>
+    <div class="sidebar1">
+      <div class="first-div">
+        <img
+          src="/cat-exercise//pexels-photo-2194261.jpeg"
+          alt=""
+          class="profile-picture"
+        />
+      </div>
+      <div class="second-div">
+        <img
+          src="/cat-exercise//pexels-photo-1741205.webp"
+          alt=""
+          class="profile-picture"
+        />
+      </div>
+      <div class="third-div">
+        <img
+          src="/cat-exercise//pexels-photo-2194261.jpeg"
+          alt=""
+          class="profile-picture"
+        />
+      </div>
+    </div>
+    <div class="sidebar2">
+      <div class="nested-flex">
+        <p class="info">INFO</p>
+        <p class="plus-icon">+</p>
+      </div>
+      <div class="nested-flex2">
+        <p class="hash-icon">#</p>
+        <p class="title">new-videos</p>
+      </div>
+      <div class="nested-flex2">
+        <p class="hash-icon">#</p>
+        <p class="title">updates</p>
+      </div>
+      <div class="nested-flex2">
+        <p class="hash-icon">#</p>
+        <p class="title">faq</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flexbox {
+        display: flex;
+        height: 50px;
+      }
+      .coloum1 {
+        background-color: lightpink;
+        width: 100px;
+      }
+      .coloumn2 {
+        background-color: lightblue;
+        width: 200px;
+      }
+      .nested-flexbox {
+        display: flex;
+      }
+      .nested-flex-box {
+        display: flex;
+        justify-content: space-between;
+      }
+      .row2-coloum1,
+      .row2-coloum2 {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="coloum1"></div>
+      <div class="coloumn2">
+        <div class="row1 nested-flexbox">
+          <div class="row1-coloum1">row1</div>
+        </div>
+        <div class="row2 nested-flex-box">
+          <div class="row2-coloum1">row2</div>
+          <div class="row2-coloum2">row2</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

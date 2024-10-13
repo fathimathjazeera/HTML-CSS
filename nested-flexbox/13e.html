@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container-box {
+        width: 600px;
+        margin-top: 30px;
+        margin-left: 30px;
+      }
+      .flex-container {
+        display: flex;
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Arial;
+      }
+      .cat-picture {
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        object-fit: cover;
+      }
+      .titles {
+        display: flex;
+        align-items: center;
+      }
+      .title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-right: 5px;
+      }
+      .span {
+        font-size: 20px;
+        color: gray;
+        margin-bottom: 10px;
+      }
+      .left {
+        margin-right: 20px;
+      }
+      .youtube-title {
+        margin-top: 20px;
+        margin-bottom: 7px;
+        color: rgb(82, 80, 80);
+        font-size: 20px;
+      }
+      .nested-flexbox {
+        display: flex;
+        border-radius: 10px;
+        margin-top: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(198, 198, 198);
+        width: 440px;
+      }
+      .subtitle {
+        font-size: 20px;
+      }
+      .left-div {
+        background-color: rgb(198, 198, 198);
+        width: 200px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin-right: 15px;
+      }
+      .final {
+        line-height: 24px;
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-box">
+      <div class="flex-container">
+        <div class="left">
+          <img
+            src="/cat-exercise/kitty-cat-kitten-pet-45201.jpeg"
+            alt=""
+            class="cat-picture"
+          />
+        </div>
+        <div class="right">
+          <div class="titles">
+            <p class="title">supersimple.dev</p>
+            <p class="span">@SuperSimpleDev</p>
+          </div>
+          <div>
+            <p class="subtitle">
+              What is backend web development? A complete overview. New video is
+              up!
+            </p>
+          </div>
+          <div class="nested-flexbox">
+            <div class="left-div"></div>
+            <div class="right-div">
+              <p class="youtube-title">youtube.com</p>
+              <p class="final">
+                Backend web development - a complete overview (2021)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

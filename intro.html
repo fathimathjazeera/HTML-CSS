@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .flex {
+        display: flex;
+        background-color: lightcoral;
+        height: 50px;
+      }
+      .left {
+        background-color: lightseagreen;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      
+      }
+      .mid {
+        background-color: lightgreen;
+        width: 400px;
+        display: flex;
+        align-items: center;
+      }
+      .right {
+        background-color: lightpink;
+        flex: 1;
+        display: flex;
+        align-items: center;
+      }
+      .left1,
+      .left2 {
+        background-color: lightgray;
+       max-width: 300px;
+      }
+      @media (max-width: 600px) {
+        .left{
+          justify-content: space-around;
+        }
+        .left1,
+        .left2 {
+          background-color: lightgray;
+        width: 100px;
+        }
+      }
+      .flexbox {
+        display: flex;
+        background-color: lightcoral;
+        height: 50px;
+        margin-top: 40px;
+      }
+      .left-sec {
+        background-color: lightseagreen;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      
+      }
+      .mid-sec {
+        background-color: lightgreen;
+        width: 400px;
+        display: flex;
+        align-items: center;
+      }
+      .right-sec {
+        background-color: lightpink;
+        width: 400px;
+        display: flex;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="left">
+        <div class="left1">hello</div>
+        <div class="left2">logo</div>
+      </div>
+      <div class="mid">
+        <div class="mid1">hey content</div>
+        <div class="mid2">hii content</div>
+      </div>
+      <div class="right">
+        <div class="right1">hi sidebar</div>
+        <div class="right2">hey sidebar</div>
+      </div>
+    </div>
+
+
+    <div class="flexbox">
+      <div class="left-sec">
+       hii
+      </div>
+      <div class="mid-sec">
+       
+      </div>
+      <div class="right-sec">
+       
+      </div>
+    </div>
+  </body>
+</html>
